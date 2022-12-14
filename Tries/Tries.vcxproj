@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c92eafa8-e29d-46cf-9174-56878bcf973b}</ProjectGuid>
-    <RootNamespace>MivnatA</RootNamespace>
+    <ProjectGuid>{82a15785-16a9-4ece-99b3-d61e4d999ab6}</ProjectGuid>
+    <RootNamespace>Tries</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>B+ Tree</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,14 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Node.h" />
-    <ClInclude Include="Tree.h" />
-    <ClInclude Include="TreeList.h" />
+    <ClInclude Include="Trie.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Tree.cpp" />
-    <ClCompile Include="TreeList.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Trie.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
